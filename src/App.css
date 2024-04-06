@@ -1,0 +1,25 @@
+.banner{
+  background-color:#FFF7E4;
+  border-radius: 10px;
+}
+.banner_head1{
+  font-size: 4em;
+  color: #323FC1;
+}
+.banner_head1 ::selection{
+  background-color:#b88400 ;
+}
+.banner_head2{
+color: #323FC1;
+
+}
+.banner-para{
+  color:  #b88400;
+}
+.banner_btn{
+  border: none;
+  background: none;
+}
+.number-btn{
+  
+}
