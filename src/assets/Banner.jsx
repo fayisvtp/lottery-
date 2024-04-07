@@ -1,5 +1,6 @@
 import React from "react";
 import image1 from "../assets/image1.png";
+import image2 from '../assets/Hourglass.png'
 export default function Banner() {
   return (
     <div className="d-flex align-items-center justify-content-center m-3">
@@ -8,10 +9,12 @@ export default function Banner() {
           <img
             className="col-12 m-3"
             src={image1}
-            alt=""
+            alt="lotery image"
             style={{ width: "22em" }}
           />
+         
         </div>
+        
         <div className="col-6 d-flex flex-column justify-content-center ">
             <div>
 
@@ -24,8 +27,12 @@ export default function Banner() {
              Voluptatem eius repellendus
             fugiat adipisci quod!
           </p>
+          
           <button className="banner_btn d-">learn more</button>
             </div>
+        {/* <img src={image2} 
+          alt="hourglass" 
+          style={{width:'20em'}}/> */}
         </div>
       </div>
     </div>

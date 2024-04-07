@@ -21,5 +21,15 @@ color: #323FC1;
   background: none;
 }
 .number-btn{
-  
+  border: none;
+ color: #b88400;
+  border-radius: 30px;
+  height: 30px;
+
+}
+.display{
+  height: 100px;
+  width: 200px;
+
+ color: #323FC1;
 }
