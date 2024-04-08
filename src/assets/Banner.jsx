@@ -17,7 +17,7 @@ export default function Banner() {
         <div className="col-6 d-flex flex-column justify-content-center ">
             <div>
 
-          <h1 className="banner_head1 ">Hurry Up</h1>
+          <h1 className="banner_head1 d-flex ">Hurry Up</h1>
           <h2 className="banner_head2">up to 44% of on 12 teckets</h2>
           <p className="banner-para">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />

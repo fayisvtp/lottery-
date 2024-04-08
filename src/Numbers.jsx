@@ -51,7 +51,7 @@ export default function Numbers() {
   };
 
   return (
-    <div>
+    <div className="d-flex flex-column align-items-center">
       <h1
         className="d-flex justify-content-center text-white "
         style={{ backgroundColor: "#323FC1" }}
@@ -59,7 +59,7 @@ export default function Numbers() {
         Collect Your Tickets
       </h1>
       <div
-        className="container d-flex flex-row m-5 col-12"
+        className="container d-flex flex-row m-5 col-11 pb-5 trans"
         style={{ backgroundColor: "#ECEFFF", borderRadius: "30px" }}
       >
         <div className="col-12 ">
@@ -91,7 +91,7 @@ export default function Numbers() {
           </div>
           <hr />
           <div>
-            <div className="d-flex m-3 p-3 justify-content-end ">
+            <div className="d-flex mx-5  p-3 justify-content-end ">
               <button className="clean_btn text-danger" onClick={resetNumbers}>
                 <CleaningServicesIcon /> Clean
               </button>
@@ -103,9 +103,9 @@ export default function Numbers() {
                 Pick Quick
               </button>
             </div>
-            {rows.map((row, index) => (
+            {/* {rows.map((row, index) => (
               <div
-                className=" d-flex justify-content-center align-items-center"
+                className=" d-flex "
                 key={index}
               >
                 {row.map((number, i) => (
@@ -122,7 +122,31 @@ export default function Numbers() {
                   </button>
                 ))}
               </div>
-            ))}
+            ))} */}
+            {/* {rows.map((row, index) => (
+              <div
+                className=" d-flex col-12"
+                key={index}
+              > */}
+              <div className="flex col-12">
+
+                {numbers.map((number, i) => (
+                  <button
+                    onClick={() => numberView(number)}
+                    className={`col-1  justify-content-center align-items-center number-btn m-2 ${
+                      selectedNumbers.includes(number)
+                        ? "bg-primary  text-light"
+                        : "bg-light "
+                    }`}
+                    key={i}
+                  >
+                    {number}
+                  </button>
+                ))}
+              </div>
+
+              {/* </div>
+            ))} */}
           </div>
         </div>
         {/* <div className="col-4 mx-5  d-flex flex-column">

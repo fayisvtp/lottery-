@@ -27,6 +27,7 @@ color: #323FC1;
   height: 30px;
 
 }
+
 .display{
   height: 100px;
   width: 200px;
@@ -135,11 +136,11 @@ color: #323FC1;
   }
 }
 
-/* Additional styles for larger screens (desktop) */
 @media (min-width: 992px) {
   .banner {
     flex-direction: column;
-width: 100%;
+width: 1070%;
+
   }
   .banner {
     flex-direction: row;
