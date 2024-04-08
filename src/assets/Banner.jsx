@@ -1,6 +1,5 @@
 import React from "react";
 import image1 from "../assets/image1.png";
-import image2 from '../assets/Hourglass.png'
 export default function Banner() {
   return (
     <div className="d-flex align-items-center justify-content-center m-3">

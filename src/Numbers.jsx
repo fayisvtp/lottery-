@@ -122,9 +122,9 @@ export default function Numbers() {
             ))}
           </div>
         </div>
-        <div className="col-4 mx-5  d-flex flex-column">
+        {/* <div className="col-4 mx-5  d-flex flex-column">
           <Payment />
-        </div>
+        </div> */}
       </div>
     </div>
   );
