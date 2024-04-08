@@ -8,7 +8,7 @@ function App() {
   
   return (
     <>
-      {/* <Banner/> */}
+      <Banner/>
       <Numbers/>
       <Toaster
       position="top-center"

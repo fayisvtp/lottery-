@@ -150,14 +150,29 @@ width: 100%;
   }
 
   .banner_head1 {
-    font-size: 40px; /* Adjust font size for larger screens */
+    font-size: 40px; 
   }
 
   .banner_head2 {
-    font-size: 24px; /* Adjust font size for larger screens */
+    font-size: 24px; 
   }
 
   .banner-para {
-    font-size: 16px; /* Adjust font size for larger screens */
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .div-1 {
+    flex-wrap: wrap;
+  }
+
+  .div-1 > div {
+    flex: 0 0 50%; /* Two items per row on small screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .div-1 > div {
+    flex: 0 0 100%; /* One item per row on extra small screens */
   }
 }

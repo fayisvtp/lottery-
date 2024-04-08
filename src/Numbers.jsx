@@ -63,9 +63,12 @@ export default function Numbers() {
         style={{ backgroundColor: "#ECEFFF", borderRadius: "30px" }}
       >
         <div className="col-12 ">
-          <div className="d-flex align-items-center justify-content-center  ">
+               
+               {/* Tickets images session************************ */}
+
+          <div className="d-flex div-1 align-items-center justify-content-center  ">
             {selectedNumbers.map((item, index) => (
-              <div className="d-flex " key={index}>
+              <div className=" d-flex  justify-content-center" key={index}>
                 <div
                   style={{
                     backgroundImage: `url(${image})`,
