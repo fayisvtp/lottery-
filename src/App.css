@@ -45,3 +45,10 @@ color: #323FC1;
   border: #323FC1;
 
 }
+.buy_btn{
+  background: none !important;
+  border: none;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
