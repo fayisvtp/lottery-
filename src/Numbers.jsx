@@ -103,31 +103,7 @@ export default function Numbers() {
                 Pick Quick
               </button>
             </div>
-            {/* {rows.map((row, index) => (
-              <div
-                className=" d-flex "
-                key={index}
-              >
-                {row.map((number, i) => (
-                  <button
-                    onClick={() => numberView(number)}
-                    className={`col-1 d-flex justify-content-center align-items-center number-btn m-2 ${
-                      selectedNumbers.includes(number)
-                        ? "bg-primary  text-light"
-                        : "bg-light "
-                    }`}
-                    key={i}
-                  >
-                    {number}
-                  </button>
-                ))}
-              </div>
-            ))} */}
-            {/* {rows.map((row, index) => (
-              <div
-                className=" d-flex col-12"
-                key={index}
-              > */}
+            
               <div className="flex col-12">
 
                 {numbers.map((number, i) => (
@@ -144,14 +120,13 @@ export default function Numbers() {
                   </button>
                 ))}
               </div>
+              <div className="bg-warning d-flex align-items-center   justify-content-center  " style={{borderRadius:'10px'}}>
+        <button className="buy_btn">Buy Now</button>
+              </div>
 
-              {/* </div>
-            ))} */}
+             
           </div>
         </div>
-        {/* <div className="col-4 mx-5  d-flex flex-column">
-          <Payment />
-        </div> */}
       </div>
     </div>
   );
