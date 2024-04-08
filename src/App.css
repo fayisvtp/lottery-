@@ -33,3 +33,15 @@ color: #323FC1;
 
  color: #323FC1;
 }
+.clean_btn{
+  background: none;
+
+  border: #323FC1;
+  border-radius: 50%;
+}
+.random_btn{
+  background: none;
+  border: 2px solid #323FC1;
+  border: #323FC1;
+
+}
